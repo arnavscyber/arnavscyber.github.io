@@ -1,0 +1,64 @@
+# Phishing Email Analysis Lab
+
+## Overview
+
+This project documents the analysis of simulated phishing emails to identify indicators of compromise and social engineering tactics.
+
+The objective was to practice:
+- Email threat analysis
+- Header investigation
+- URL inspection
+- Phishing detection techniques
+
+---
+
+## Investigation Summary
+
+A suspicious email claiming to be from a financial institution was analyzed for malicious indicators.
+
+---
+
+## Indicators Identified
+
+- Suspicious sender domain
+- Spoofed branding
+- Misleading hyperlink destination
+- Urgent social engineering language
+- Suspicious attachment behavior
+
+---
+
+## Analysis Steps
+
+### Header Review
+Examined email headers for sender inconsistencies and relay information.
+
+### URL Inspection
+Reviewed embedded URLs and checked reputation using VirusTotal.
+
+### Domain Investigation
+Performed WHOIS lookups on sender domains.
+
+---
+
+## Skills Demonstrated
+
+- Threat analysis
+- Email investigation
+- Social engineering detection
+- Documentation and reporting
+
+---
+
+## Screenshots
+
+(Add screenshots here)
+
+---
+
+## Lessons Learned
+
+This project improved my understanding of:
+- Common phishing tactics
+- Email-based attack vectors
+- Threat investigation workflows
