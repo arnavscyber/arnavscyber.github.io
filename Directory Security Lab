@@ -1,0 +1,68 @@
+# Active Directory Security Lab
+
+## Overview
+
+This project documents my hands-on practice with Active Directory administration and Windows security monitoring in a virtual lab environment.
+
+The purpose of this lab was to develop foundational skills related to:
+- User management
+- Authentication
+- Group Policy
+- Windows event monitoring
+- Enterprise security concepts
+
+---
+
+## Lab Environment
+
+### Systems Used
+- Windows Server
+- Windows 10 Client VM
+- VirtualBox
+
+### Tools and Features
+- Active Directory Users and Computers
+- Group Policy Management
+- Windows Event Viewer
+
+---
+
+## Activities Completed
+
+### User and Group Management
+Created domain users, security groups, and organizational units.
+
+### Group Policy Configuration
+Configured password and account lockout policies.
+
+### Authentication Monitoring
+Reviewed Windows login events and failed authentication attempts.
+
+### Windows Security Logging
+Analyzed Event Viewer logs related to user authentication and system activity.
+
+---
+
+## Skills Demonstrated
+
+- Active Directory administration
+- Windows security fundamentals
+- Account policy management
+- Authentication monitoring
+- Security documentation
+
+---
+
+## Screenshots
+
+(Add screenshots here)
+
+---
+
+## Lessons Learned
+
+This lab improved my understanding of:
+- Enterprise Windows environments
+- Authentication workflows
+- User and permission management
+- Security event logging
