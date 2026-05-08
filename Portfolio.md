@@ -39,7 +39,7 @@ My current areas of focus include:
 
 ---
 
-## Planned Projects
+## Projects
 
 ### SOC Home Lab
 Building a virtual SOC environment using tools like Splunk, Sysmon, and Windows event logging.
