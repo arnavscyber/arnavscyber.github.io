@@ -9,9 +9,10 @@ Welcome to my cybersecurity portfolio repository. This GitHub documents my labs,
 
 ## About Me
 
-I am a cybersecurity learner with a CompTIA Security+ certification and hands-on experience developing technical documentation, analyzing systems, and building practical security skills.
+I am a cybersecurity professional with a CompTIA Security+ certification and hands-on experience developing technical documentation, analyzing systems, and building practical security skills.
 
 My current areas of focus include:
+- Governance, Risk, and Compliance (GRC)
 - SOC Operations
 - Threat Detection
 - SIEM Tools
