@@ -1,0 +1,29 @@
+## Projects
+
+### SOC Home Lab
+Building a virtual SOC environment using tools like Splunk, Sysmon, and Windows event logging.
+
+### Python Security Tools
+Creating automation tools for:
+- Log parsing
+- Port scanning
+- IOC checking
+- File integrity monitoring
+
+### Active Directory Lab
+Learning user management, permissions, Group Policy, and common attack paths in enterprise environments.
+
+### Cloud Security
+Exploring AWS security concepts including IAM, monitoring, and logging.
+
+---
+
+## Goals for 2026
+
+- Build hands-on cybersecurity projects
+- Strengthen detection engineering skills
+- Create a complete SOC home lab
+- Improve Python automation skills
+- Prepare for entry-level cybersecurity roles
+
+---
