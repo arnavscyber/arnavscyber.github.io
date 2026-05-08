@@ -1,29 +1,91 @@
-## Projects
+# SOC Log Analysis Lab
 
-### SOC Home Lab
-Building a virtual SOC environment using tools like Splunk, Sysmon, and Windows event logging.
+## Overview
 
-### Python Security Tools
-Creating automation tools for:
-- Log parsing
-- Port scanning
-- IOC checking
-- File integrity monitoring
+This project simulates a beginner SOC (Security Operations Center) environment focused on log analysis and threat detection.
 
-### Active Directory Lab
-Learning user management, permissions, Group Policy, and common attack paths in enterprise environments.
-
-### Cloud Security
-Exploring AWS security concepts including IAM, monitoring, and logging.
+The goal of this lab was to practice:
+- Security monitoring
+- Log analysis
+- Basic threat detection
+- SIEM workflows
+- Incident investigation concepts
 
 ---
 
-## Goals for 2026
+## Lab Environment
 
-- Build hands-on cybersecurity projects
-- Strengthen detection engineering skills
-- Create a complete SOC home lab
-- Improve Python automation skills
-- Prepare for entry-level cybersecurity roles
+### Virtual Machines
+- Windows 11 VM
+- Kali Linux VM
+
+### Tools Used
+- Splunk
+- Sysmon
+- Windows Event Viewer
+- VirtualBox
 
 ---
+
+## Objectives
+
+- Generate Windows security logs
+- Simulate failed login attempts
+- Monitor PowerShell execution
+- Analyze events using Splunk queries
+- Create basic detection rules
+
+---
+
+## Simulated Attacks
+
+### Failed Login Brute Force
+Generated multiple failed login attempts to observe Windows Event ID 4625 logs.
+
+### Suspicious PowerShell Activity
+Executed PowerShell commands to monitor process creation and Sysmon logging.
+
+---
+
+## Detection Examples
+
+### Failed Login Detection
+```spl
+index=main EventCode=4625
+| stats count by Account_Name, Source_Network_Address
+```
+
+### PowerShell Process Detection
+```spl
+index=main powershell.exe
+```
+
+---
+
+## Screenshots
+
+### Splunk Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Failed Login Events
+![Failed Logins](screenshots/failed-logins.png)
+
+---
+
+## Skills Demonstrated
+
+- SIEM log analysis
+- Windows event monitoring
+- Threat detection basics
+- Security documentation
+- SOC investigation workflow
+
+---
+
+## Lessons Learned
+
+This lab improved my understanding of:
+- Windows logging
+- Event correlation
+- Basic SOC analyst workflows
+- Detection engineering fundamentals
