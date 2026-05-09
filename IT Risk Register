@@ -1,0 +1,77 @@
+# IT Risk Register
+## NIST 800-30 and HIPAA Security Rule Focus
+
+## Overview
+
+This portfolio case study uses a fictionalized healthcare scenario, **Cedar Park Regional Health (CPRH)**, to demonstrate practical Governance, Risk, and Compliance skills in a regional pediatric and acute care environment.
+
+The purpose of this project is to show how technical security concepts can be translated into business-ready risk documentation, audit preparation, control remediation, and vendor risk oversight. The artifacts below reflect common responsibilities for an entry-level GRC analyst supporting healthcare security and compliance programs.
+
+---
+
+## Project Objectives
+
+- Demonstrate foundational GRC and cybersecurity risk management concepts
+- Practice documenting organizational and technical risks
+- Apply HIPAA Security Rule and NIST 800-30 principles
+- Develop business-focused remediation recommendations
+- Simulate real-world healthcare compliance workflows
+
+---
+
+## Risk Register
+
+| Risk ID | Risk Description | Risk Category | Likelihood | Impact | Risk Score | Recommended Mitigation | Status |
+|---|---|---|---|---|---|---|---|
+| R-001 | Unauthorized access to ePHI through phishing or credential compromise | Security | 4 | 5 | 20 | Implement phishing simulation training, strengthen email security controls, and enforce phishing-resistant MFA such as FIDO2 security keys. | In Progress |
+| R-002 | Ransomware attack affecting diagnostic imaging systems | Operational | 3 | 5 | 15 | Implement offline backups, test disaster recovery procedures, and segment clinical systems and connected medical devices from general corporate networks. | Planned |
+| R-003 | Loss or theft of unencrypted mobile nurse tablets | Compliance | 3 | 4 | 12 | Enforce full-disk encryption through mobile device management, enable remote wipe, and require device inventory reviews. | Resolved |
+| R-004 | Failure to revoke system access for terminated employees | Governance | 3 | 3 | 9 | Automate HR-to-IT deprovisioning workflows and require access removal within 24 hours of employee termination. | In Progress |
+
+---
+
+## Methodology
+
+Risks were evaluated using:
+- Likelihood scoring
+- Impact scoring
+- Risk prioritization
+- Mitigation planning
+- Compliance-focused security analysis
+
+Risk scoring was calculated using:
+
+```text
+Likelihood × Impact = Risk Score
+```
+
+---
+
+## Key Skills Demonstrated
+
+- Governance, Risk, and Compliance (GRC) fundamentals
+- Risk identification and prioritization
+- HIPAA-aligned security analysis
+- Security documentation and reporting
+- Control remediation planning
+- Vendor and operational risk awareness
+- Business-oriented cybersecurity communication
+
+---
+
+## Frameworks and Standards Referenced
+
+- NIST SP 800-30
+- HIPAA Security Rule
+- General cybersecurity risk management principles
+
+---
+
+## Lessons Learned
+
+This project improved my understanding of:
+- Risk assessment methodologies
+- Compliance-focused cybersecurity operations
+- Translating technical risks into business language
+- Healthcare security and regulatory considerations
+- Structuring formal risk documentation used by organizations
