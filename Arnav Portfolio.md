@@ -61,11 +61,9 @@ Exploring AWS security concepts including IAM, monitoring, and logging.
 
 ## Goals for 2026
 
-- Build hands-on cybersecurity projects
-- Strengthen detection engineering skills
-- Create a complete SOC home lab
-- Improve Python automation skills
-- Prepare for entry-level cybersecurity roles
+- Complete GRCP Certification
+- Get A+ and Network+
+- AI Certifications in Cybersecurity
 
 ---
 
